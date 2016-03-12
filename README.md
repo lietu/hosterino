@@ -13,7 +13,7 @@ Also, if your host drops due to a streamer going offline, you can notice it with
 
 ## How to use it?
 
-Get it from [Chrome Web Store](https://chrome.google.com/webstore/category/apps?utm_source=chrome-ntp-icon).
+Get it from [Chrome Web Store](https://chrome.google.com/webstore/detail/hosterino/ameldpdckeebekhhifcgadeklklhoecb).
 
 Then click on the extension icon and configure your Twitch username in the dialog.
  

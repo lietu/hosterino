@@ -4,5 +4,6 @@ dist/*.js
 dist/*.json
 dist/*.html
 dist/*.png
+dist/*.zip
 node_modules
 .idea
