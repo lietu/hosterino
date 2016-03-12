@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="popup.css"/>
+</head>
+<body>
+<header><h1>Hosterino <img src="icon.png"></h1></header>
+<section>
+    <p>
+        Shows you when you are hosting someone, and reminds you when you've
+        forgotten to do so.
+    </p>
+
+    <form autocomplete="off">
+        <div class="field">
+            <label for="username">Twitch username</label>
+            <input type="text" name="username" id="username"
+                   data-tie="value: username"/>
+        </div>
+        <div class="field status" data-tie="text: status">
+        </div>
+    </form>
+
+    <p>
+        Hosterino checks the status of hosting once per minute.
+    </p>
+
+    <p>
+        The extension icon will glow purple if you are currently hosting
+        someone. You will see a notification on all Twitch webpages about your
+        current hosting status, and changes in it.
+    </p>
+</section>
+<footer>
+    <div>Icon made by <a href="http://www.freepik.com"
+                         title="Freepik">Freepik</a>
+        from <a href="http://www.flaticon.com"
+                title="Flaticon">www.flaticon.com</a> and is licensed by <a
+                href="http://creativecommons.org/licenses/by/3.0/"
+                title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
+    </div>
+
+    <script src="lib/tie.js"></script>
+    <script src="popup.js"></script>
+</footer>
+</body>
+</html>

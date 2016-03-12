@@ -1,0 +1,64 @@
+$twitch: #a68ed2;
+$buttonBorder: #a8a8a8;
+$separator: darken($twitch, 10%);
+
+a, a:visited, a:active, a:hover {
+  color: #055599;
+}
+
+body, html {
+  border: 1px solid $separator;
+  font-family: Tahoma, sans-serif;
+}
+
+header {
+  padding: 8px;
+  border-bottom: 1px solid $separator;
+  text-align: center;
+  background-color: lighten($twitch, 5%);
+
+  h1 {
+    margin: 0;
+    padding: 0;
+
+    img {
+      max-height: 24px;
+      margin-bottom: -3px;
+    }
+  }
+}
+
+section {
+  padding: 8px;
+  background-color: lighten($twitch, 25%);
+  min-height: 112px;
+}
+
+.field {
+  margin-bottom: 16px;
+
+  &.status {
+    border: 1px solid $separator;
+    padding: 6px;
+    background-color: lighten($twitch, 20%);
+  }
+
+  label {
+    display: block;
+    font-weight: bold;
+    font-size: 13px;
+    margin-bottom: 6px;
+  }
+
+  input {
+    width: 275px;
+    padding: 4px;
+  }
+}
+
+footer {
+  font-size: 9px;
+  padding: 8px;
+  border-top: 1px solid $separator;
+  background-color: lighten($separator, 15%);
+}

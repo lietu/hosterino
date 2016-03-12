@@ -1,0 +1,39 @@
+$twitch: #a68ed2;
+$text: #242424;
+$border: lighten($twitch, 15%);
+
+.hosterino {
+  font-family: Tahoma, sans-serif;
+  font-size: 14px;
+
+  padding: 4px 24px 4px 4px;
+  margin: 0;
+  border: 1px solid $border;
+
+  color: $text;
+  background-color: lighten($twitch, 5%);
+
+  display: block;
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  height: 32px;
+  z-index: 99999;
+
+  opacity: 1;
+  transition: all 0.3s;
+  &.shoo {
+    top: 40px;
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  .dismiss {
+    cursor: pointer;
+    font-size: 16px;
+    position: absolute;
+    font-weight: bold;
+    top: 3px;
+    right: 4px;
+  }
+}

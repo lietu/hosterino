@@ -1,0 +1,8 @@
+dist/lib
+dist/*.css
+dist/*.js
+dist/*.json
+dist/*.html
+dist/*.png
+node_modules
+.idea
