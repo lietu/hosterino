@@ -25,9 +25,11 @@ Then click on the extension icon and configure your Twitch username in the dialo
 Something like this.
 
 First, you configure it:
+
 ![Extension Screenshot 1](extension_screenshot.jpg?raw=true)
 
 Then you get notifications like this on Twitch (and the icon updates appropriately).
+
 ![Extension Screenshot 3](extension_screenshot3.jpg?raw=true)
 ![Extension Screenshot 2](extension_screenshot2.jpg?raw=true)
 
