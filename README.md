@@ -54,3 +54,9 @@ That will monitor for changes in the `src/` -directory, compile necessary things
 
 Then go to your Google Chrome settings, then open up extensions, enable `Developer mode`, and `Load unpacked extension...`. Point that to the `dist/` -folder.
 
+
+# Financial support
+
+This project has been made possible thanks to [Cocreators](https://cocreators.ee) and [Lietu](https://lietu.net). You can help us continue our open source work by supporting us on [Buy me a coffee](https://www.buymeacoffee.com/cocreators).
+
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/cocreators)
